@@ -9,7 +9,7 @@
 .container_info_block{
     margin-top: 40px;
     height: 600px;
-    width: 95%;
+    width: 1200px;
     display: flex;
     flex-direction: column;
 }
