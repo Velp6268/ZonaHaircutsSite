@@ -1,0 +1,24 @@
+.image_container{
+    display: flex;
+    width: 40% ;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.img_haircut{
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+    height: 600px;
+    width: 850px;
+
+}
+.img_haircut img:nth-child(2) {
+    padding-left: 50px;
+}
+
+.img_haircut img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
