@@ -3,6 +3,7 @@ import MainBlock from "../sections/MainBlock/MainBlock.tsx";
 import Header from "../sections/Header/Header.tsx";
 import WhatWeDo from "../sections/WhatWeDo/WhatWeDo.tsx";
 import Contact from '../sections/Contact/Contact.tsx';
+import OurTeam from '../sections/OurTeam/OurTeam.tsx';
 
 const HomePages : React.FC = ()  => {
     return (
@@ -11,6 +12,7 @@ const HomePages : React.FC = ()  => {
             <MainBlock/>
             <WhatWeDo/>
             
+            <OurTeam/>
             <Contact/>
         </div>
     );
