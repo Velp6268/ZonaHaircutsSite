@@ -25,6 +25,19 @@ const InfoBlockWhatWeDo: React.FC = () => {
 
             </div>
 
+
+            <div className={style.mobile_container_info_block}>
+                <div className={style.mobile_description}>
+                    <h2>Но курс на социально-ориентированный национальный проект требует от нас анализа системы
+                        обучения кадров, соответствующей насущным потребностям. Принимая во внимание показатели
+                        успешности, базовый вектор развития обеспечивает широкому.</h2>
+                </div>
+
+                <button className={style.mobile_btn}>
+                    ЗАПИСАТЬСЯ
+                </button>
+            </div>
+
         </div>
     );
 };
