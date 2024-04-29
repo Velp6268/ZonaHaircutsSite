@@ -95,6 +95,8 @@
 }
 
 
+
+
 @media(max-width: 1326px){
     .container_info_block h2 {
         font-weight: 500;
@@ -113,6 +115,10 @@
         flex-direction: column;
         width: 95%;
 
+    }
+
+    .container_info_block h1 {
+        font-size: 22px;
     }
 
     .container_info_block h2 {
