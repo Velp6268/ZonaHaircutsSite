@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import styles from './OurWorks.module.css';
 
-// Import images individually
-import clientOurWorksNewChild from '/images/client_ourworks_new_child.jpg'; // New child photo
-import clientOurWorksNewIvan from '/images/client_ourworks_new_ivan.jpg';   // New Ivan photo
+
+import clientOurWorksNewChild from '/images/client_ourworks_new_child.jpg';
+import clientOurWorksNewIvan from '/images/client_ourworks_new_ivan.jpg';
 import clientOurWorks3 from '/images/client_ourworks_3.jpg';
 import clientOurWorks4 from '/images/client_ourworks_4.jpg';
 import clientOurWorks5 from '/images/client_ourworks_5.jpg';
@@ -12,8 +12,8 @@ import clientOurWorks7 from '/images/client_ourworks_7.jpg';
 import clientOurWorks8 from '/images/client_ourworks_8.jpg';
 
 const photos = [
-    clientOurWorksNewChild, // Replaced photo at index 0
-    clientOurWorksNewIvan,  // Replaced photo at index 1
+    clientOurWorksNewChild,
+    clientOurWorksNewIvan,
     clientOurWorks3,
     clientOurWorks4,
     clientOurWorks5,
