@@ -2,6 +2,8 @@ import React from 'react';
 import style from "../..//UI/InfoBlockWhatWeDo/InfoBlockWhatWeDo.module.css";
 
 const InfoBlockWhatWeDo: React.FC = () => {
+    const bookingLink = "https://site.saby.ru/booking/980046b9-ad0d-4f7b-8237-8ab477d9b7dc?pointId=234";
+
     return (
         <div className={style.info_block}>
 
@@ -18,13 +20,13 @@ const InfoBlockWhatWeDo: React.FC = () => {
                         успешности, базовый вектор развития обеспечивает широкому.</h2>
                 </div>
 
-                <button>
-                    ЗАПИСАТЬСЯ
-                </button>
-
+                <a href={bookingLink} target="_blank" rel="noopener noreferrer" className={style.button_link}>
+                    <button>
+                        ЗАПИСАТЬСЯ
+                    </button>
+                </a>
 
             </div>
-
 
             <div className={style.mobile_container_info_block}>
                 <div className={style.mobile_description}>
@@ -32,10 +34,11 @@ const InfoBlockWhatWeDo: React.FC = () => {
                         обучения кадров, соответствующей насущным потребностям. Принимая во внимание показатели
                         успешности, базовый вектор развития обеспечивает широкому.</h2>
                 </div>
-
-                <button className={style.mobile_btn}>
-                    ЗАПИСАТЬСЯ
-                </button>
+                <a href={bookingLink} target="_blank" rel="noopener noreferrer" className={`${style.mobile_btn_link} ${style.button_link}`}>
+                    <button className={style.mobile_btn}>
+                        ЗАПИСАТЬСЯ
+                    </button>
+                </a>
             </div>
 
         </div>

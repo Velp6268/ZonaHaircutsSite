@@ -11,8 +11,8 @@ const MainBlock: React.FC = () => {
 
             <div className={style.main_block}>
                 <div className={style.container_main_name}>
-                    <h1>- ZONA -</h1>
-                    <h1>HAIRCUTS</h1>
+                    <h1>- ЗОНА -</h1>
+                    <h1>СТРИЖЕК</h1>
                 </div>
 
                 <div className={style.container_icon}>
@@ -28,3 +28,4 @@ const MainBlock: React.FC = () => {
 };
 
 export default MainBlock;
+

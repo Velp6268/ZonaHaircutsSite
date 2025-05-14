@@ -10,23 +10,23 @@ const OurTeam: React.FC = () => {
 
                     <div className={styles.flex_cont}>
                         <div className={styles.card}>
-                            <img className={styles.photo} src='public\images\samplePhotoDefault.png'></img>
+                            <img className={styles.photo} src='/images/team_roma.jpg'></img>
                             <div className={styles.name}>
-                                <p className={styles.text}>Иван Иванов</p>
+                                <p className={styles.text}>Рома</p>
                             </div>
                         </div>
 
                         <div className={styles.card}>
-                            <img className={styles.photo} src='public\images\samplePhotoDefault.png'></img>
+                            <img className={styles.photo} src='/images/team_ivan.jpg'></img>
                             <div className={styles.name}>
-                                <p className={styles.text}>Иван Иванов</p>
+                                <p className={styles.text}>Иван</p>
                             </div>
                         </div>
 
                         <div className={styles.card}>
-                            <img className={styles.photo} src='public\images\samplePhotoDefault.png'></img>
+                            <img className={styles.photo} src='/images/team_david.jpg'></img>
                             <div className={styles.name}>
-                                <p className={styles.text}>Иван Иванов</p>
+                                <p className={styles.text}>Давид</p>
                             </div>
                         </div>
                     </div>

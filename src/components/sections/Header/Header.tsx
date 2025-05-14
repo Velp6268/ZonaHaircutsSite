@@ -23,18 +23,19 @@ const Header: React.FC = () => {
                         <ul>
                             <li><a href="#services" onClick={closeMenu}>Услуги</a></li>
                             <li><a href="#ourTeam" onClick={closeMenu}>Команда</a></li>
-                            <li><a href="#cases" onClick={closeMenu}>Кейсы</a></li>
-                            <li><a href="#gallery" onClick={closeMenu}>Галерея</a></li>
+                            <li><a href="#our-works" onClick={closeMenu}>Кейсы</a></li>
+                            <li><a href="#our-works" onClick={closeMenu}>Галерея</a></li> {/* Added Gallery link to OurWorks */}
                             <li><a href="#contacts" onClick={closeMenu}>Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <div className={style.container_numphone}>
-                <p>+7 (937) 726-58-88</p>
+                <p>+7(960)884-98-78</p>
             </div>
         </div>
     );
 };
 
 export default Header;
+

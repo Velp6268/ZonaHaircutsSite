@@ -32,10 +32,10 @@
 .container_info_block img{
     height: 181px;
     width: 181px;
+    object-fit: cover;
 }
 
 
-/*Left Chapter Info block*/
 .left_container{
     width: 50%;
     height: auto;
@@ -64,7 +64,6 @@
     padding-right: 10px; padding-left: 20px;
 }
 
-/*Right Chapter Info block*/
 
 .right_container{
     width: 50%;
@@ -176,6 +175,7 @@
     .container_info_block img{
         height: 150px;
         width: 150px;
+        object-fit: cover;
     }
 
     .text_left{
@@ -216,6 +216,7 @@
     .container_info_block img{
         height: 120px;
         width: 120px;
+        object-fit: cover;
     }
 
     .text_left{
@@ -268,6 +269,7 @@
     .container_info_block img{
         height: 100px;
         width: 100px;
+        object-fit: cover;
     }
 
     .text_left{
@@ -310,6 +312,7 @@
     .container_info_block img{
         height: 100px;
         width: 100px;
+        object-fit: cover;
     }
 
     .text_left{
@@ -325,4 +328,5 @@
     }
 
 }
+
 
